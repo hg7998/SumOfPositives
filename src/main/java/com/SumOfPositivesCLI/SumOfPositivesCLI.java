@@ -11,7 +11,7 @@ public class SumOfPositivesCLI {
             for(int i = 0; i < args.length; i++) {
                 try {
                     int x = Integer.parseInt(args[i]);
-                    if(x > 0) {
+                    if (x > 0) {
                         sum += x;
                     }
                 } catch(NumberFormatException e) {
