@@ -14,7 +14,7 @@ public class SumOfPositivesCLI {
                         sum += x;
                     }
                 } catch(NumberFormatException e) {
-                    System.out.println("Please enter only numbers.");
+                    System.out.println("Please enter only whole numbers.");
                     return;
                 }
             }
