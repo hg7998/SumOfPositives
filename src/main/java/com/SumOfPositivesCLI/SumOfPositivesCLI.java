@@ -1,12 +1,13 @@
 package com.SumOfPositivesCLI;
 
 public class SumOfPositivesCLI {
+
     public static void main(String[] args) {
         int sum = 0;
         if (args.length == 0) {
             System.out.println(0);
         }
-        else{
+        else {
             for(int i = 0; i <args.length;i++) {
                 try {
                     int x = Integer.parseInt(args[i]);
